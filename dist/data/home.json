@@ -1,0 +1,47 @@
+{
+    "all":  [
+           {"id":1, "room":"Bed room", "lights": "4 Lights", 
+            "logo": "http://localhost:1234/img/bed.png"
+        },
+           {"id":2, "room":"Living room", "lights":"2 Lights",
+            "logo": "http://localhost:1234/img/room.png"
+
+        },
+           {"id":3, "room":"Kitchen", "lights":"5 Lights",
+            "logo": "http://localhost:1234/img/kitchen.png"
+
+        },
+           {"id":4, "room":"Bathroom", "lights":"1 Light",
+            "logo": "http://localhost:1234/img/bathtube.png"
+
+        },
+           {"id":5, "room":"Outdoor", "lights":"5 Lights",
+            "logo": "http://localhost:1234/img/house.png"
+
+        },
+           {"id":6, "room":"Balcony", "lights":"2 Lights",
+            "logo": "http://localhost:1234/img/balcony.png"
+
+        }
+                 ],
+       "scenes" : [
+           {"id": 1, "themes" : "Birthday", "firstclr" : "#F68281", "secondclr" : "#FFBC91"},
+           {"id": 2,"themes" : "Party",  "firstclr" : "#A594EB", "secondclr" : "#DE94EB"},
+           {"id": 3,"themes" : "Relax",  "firstclr" : "#9dcce9", "secondclr" : "#B3D5EA"},
+           {"id": 4,"themes" : "Fun",  "firstclr" : "#94EB9E", "secondclr" : "#BDEB92"}
+       ],
+       "lights" : [
+           {"id": 1,"light" : "Main Light","color": "#002D67", "logo": "http://localhost:1234/img/surface1.png"},
+           {"id": 2,"light" : "Desk Light", "color": "#002D67","logo": "http://localhost:1234/img/furniture.png"},
+           {"id": 3,"light" : "Bed Light", "color": "#002D67","logo": "http://localhost:1234/img/bed.png"}
+       ],
+       "colors" : [
+           { "id" : 1, "bgColor" : "#FF9B9B", "plus": ""},
+           { "id" : 2, "bgColor" : "#94EB9E", "plus": ""},
+           { "id" : 3, "bgColor" : "#94CAEB", "plus": ""},
+           { "id" : 4, "bgColor" : "#A594EB", "plus": ""},
+           { "id" : 5, "bgColor" : "#DE94EB", "plus": ""},
+           { "id" : 6, "bgColor" : "#EBD094", "plus": ""},
+           { "id" : 7, "bgColor" : "#FFFFFF","plus": "+"}
+       ]
+}
