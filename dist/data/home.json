@@ -1,14 +1,14 @@
 {
     "all":  [
            {"id":1, "room":"Bed room", "lights": "4 Lights", 
-            "logo": "http://localhost:1234/img/bed.png"
+            "logo": "/img/bed.png"
         },
            {"id":2, "room":"Living room", "lights":"2 Lights",
-            "logo": "http://localhost:1234/img/room.png"
+            "logo": "/img/room.png"
 
         },
            {"id":3, "room":"Kitchen", "lights":"5 Lights",
-            "logo": "http://localhost:1234/img/kitchen.png"
+            "logo": "/img/kitchen.png"
 
         },
            {"id":4, "room":"Bathroom", "lights":"1 Light",
@@ -16,11 +16,11 @@
 
         },
            {"id":5, "room":"Outdoor", "lights":"5 Lights",
-            "logo": "http://localhost:1234/img/house.png"
+            "logo": "/img/house.png"
 
         },
            {"id":6, "room":"Balcony", "lights":"2 Lights",
-            "logo": "http://localhost:1234/img/balcony.png"
+            "logo": "/img/balcony.png"
 
         }
                  ],
@@ -31,9 +31,9 @@
            {"id": 4,"themes" : "Fun",  "firstclr" : "#94EB9E", "secondclr" : "#BDEB92"}
        ],
        "lights" : [
-           {"id": 1,"light" : "Main Light","color": "#002D67", "logo": "http://localhost:1234/img/surface1.png"},
-           {"id": 2,"light" : "Desk Light", "color": "#002D67","logo": "http://localhost:1234/img/furniture.png"},
-           {"id": 3,"light" : "Bed Light", "color": "#002D67","logo": "http://localhost:1234/img/bed.png"}
+           {"id": 1,"light" : "Main Light","color": "#002D67", "logo": "/img/surface1.png"},
+           {"id": 2,"light" : "Desk Light", "color": "#002D67","logo": "/img/furniture.png"},
+           {"id": 3,"light" : "Bed Light", "color": "#002D67","logo": "/img/bed.png"}
        ],
        "colors" : [
            { "id" : 1, "bgColor" : "#FF9B9B", "plus": ""},
