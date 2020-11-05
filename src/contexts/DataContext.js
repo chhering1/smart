@@ -10,7 +10,7 @@ const DataContextProvider = (props) => {
   
 
     useEffect(() => {
-        fetch("http://localhost:1234/data/home.json")
+        fetch("data/home.json")
         .then((response) => response.json())
         .then((result) => setData(result))
     }, []);
