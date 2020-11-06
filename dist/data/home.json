@@ -12,7 +12,7 @@
 
         },
            {"id":4, "room":"Bathroom", "lights":"1 Light",
-            "logo": "http://localhost:1234/img/bathtube.png"
+            "logo": "/img/bathtube.png"
 
         },
            {"id":5, "room":"Outdoor", "lights":"5 Lights",
