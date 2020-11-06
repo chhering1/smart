@@ -28,7 +28,7 @@ const {setIsRotated} = useContext(dataContext);
    }, [ setIsRotated]);
 
  useEffect(() => {
-     setValue('100')
+     setValue('0')
  }, []);
 
      const current =   data &&  data.all.find(elm => elm.id === parseInt(props.room))
